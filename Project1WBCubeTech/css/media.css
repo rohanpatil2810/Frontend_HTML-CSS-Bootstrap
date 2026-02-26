@@ -1,0 +1,79 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .btn-outer{
+        position: fixed;
+        bottom: 0%;
+        background-color: white;
+        width: 100%;
+        left: 0%;
+        justify-content: center;
+    }
+    .btnwp{
+        justify-content: center;
+        margin-left:50px;
+        margin-bottom: 10px;
+    }
+    .call{
+        margin-bottom: 10px;
+    }
+    .bannerdiv h3{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerdiv h3 br{
+        display: none;
+    }
+    .bannerdiv p{
+        font-size: 16px;
+    }
+    .bannerdiv ul li{
+        font-size:16px;
+    }
+    .bannerContentBtn button:first-child{
+        width: 50%;
+        font-size: 16px;
+    }
+    .bannerContentBtn button{
+        width: 50%;
+        font-size: 16px;
+    }
+    .sec-2 h1{
+        font-size: 20px;
+        font-weight: bolder;
+        color: #2699fb;
+    }
+    .sec-2 h1 i{
+        font-size: 19px;
+        font-weight: bolder;
+        color: #2699fb;
+    }
+    .sec-2 p{
+        font-size: 16px;
+    }
+    .highlightsSection h3{
+        color: #0a2134;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .highlightsSection p{
+        font-size: 14px;
+    }
+    .insidesection2 h6{
+        font-size: 12px;
+    }
+    .insidesection2 p{
+        font-size: 9px;
+    }
+    .insidesection2 img{
+        height: 40px;
+        width: 40px;
+    }
+    
+}
+@media (min-width:1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xll{
+        max-width: 1170px;
+    }
+}

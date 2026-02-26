@@ -1,0 +1,89 @@
+
+.call{
+    color: white;
+    background: linear-gradient(to right,#0ACEFE,#2699fb);
+}
+header{
+    background-color: white;
+}
+*{
+    font-family: "Inter", serif;
+}
+.bannerdiv h3{
+    font-size: 52px;
+    font-weight: bold;
+}
+.bannerdiv h3 span{
+    color: #2699fb;
+}
+.bannerdiv p{
+    font-size: 22px;
+}
+.bannerdiv ul{
+    list-style: none;
+}
+.bannerdiv ul li{
+    font-size: 22px;
+
+}
+.bannerdiv ul li i{
+    color: #2699fb;
+}
+
+.bannerdiv .btndemo, .btndownload{
+    margin: 0%;
+    padding: 15px;
+    font-size: 18px;
+}
+.bannerContentBtn button{
+    width: 50%;
+}
+.bannerContentBtn button:first-child{
+    color: white;
+    background: linear-gradient(to right, #0ACEFE,#2699fb);
+}
+.bannerForm{
+    padding:40px;
+    border-radius: 10px;
+}
+.bannerForm h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bannerForm button{
+    width: 100%;
+    background: linear-gradient(to right, #0ACEFE,#2699fb);
+    border: none;
+    color: white;
+    padding: 10px 0px;
+}
+.sec-2 h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #2699fb;
+}
+.sec-2 h1 i{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #2699fb;
+}
+.highlightsSection{
+    background-color: #f7faff;
+}
+
+.highlightsSection h3{
+    color: #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlightsSection p{
+    font-size: 18px;
+}
+
+.insidesection2 h6{
+    font-weight: bold;
+}
+.insidesection2 p{
+    font-size: 12px;
+}
