@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(221, 218, 218)
+            
+        }
+       
+       #outerdiv1{
+            margin-top: 5%; 
+            background-color: #bebebe;
+            height: 700px;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            box-shadow: 60px 10px 20px #5e5c5c;
+            align-items: center;
+            border: 2px solid;
+            border-left-color: rgb(252, 252, 252);
+            border-right: none;
+        }
+        #outerdiv2{
+            margin-top: 5%; 
+            background-color: #555;
+            box-shadow: inset 60px 10px 20px#bebebe;
+            height: 700px;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            border: #bebebe;
+            border: 2px solid;
+            border-left: none;
+            border-right-color: rgb(252, 252, 252);
+        }
+        #innerdiv1{
+            border: 3px solid;
+            border-radius: 10px;
+            justify-content: center;
+            text-align: center;
+            box-shadow:5px 5px 5px #555;
+            width: 55%;
+        }
+        input{
+            background-color: #5e5c5c; 
+            color: white; 
+            background-color: #5e5c5c; 
+            color: white;
+            margin: 8px;
+        }
+        button{
+            height: 30px;
+            width: 80px;
+            border: transparent;
+            border-radius: 10px;
+            margin: 15px;
+            color: white;
+            transition: 0.5s;
+            background-color: rgb(143, 141, 141);
+        }
+        button:hover{
+            background-color: #555;
+            color: whitesmoke;
+            transform: scale(1.1);
+            box-shadow: 8px 8px 8px #5e5c5c;
+        }
+    </style>
+    <script>
+        function valid(){
+            var val=document.getElementById("username").value;
+            if(val.length>4){
+                var regexp=/(?=.[A-Z]\w{1,9})/;
+                if(val.match(regexp)){
+                    document.getElementById("p").innerHTML="valid";
+                }
+            }
+            else{
+                document.getElementById("p").innerHTML="Invalid";
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div id="outerdiv1">
+        <div id="innerdiv1">
+            <h1 style="margin: 7%;">Form</h1>
+            <label for="">User Name:</label>
+            <input type="text" placeholder="Username" name="" id=""><br>
+            <label for="">Email ID:</label>
+            <input type="email" placeholder="password" name="" id=""><br>
+            <label for="">Password:</label>
+            <input type="password" placeholder="password" name="" id="username" onkeyup="valid()"><br>
+            <p id="p">Hi</p>
+            <button >Submit</button>
+        </div>
+    </div>
+    <div id="outerdiv2">
+        <h1>Register With Us </h1>
+        <img src="https://ashokitech.com/assets/images/registerImage.png" alt="">
+      <!--- <img src="registerImage-modified.png" alt="">  -->
+    </div>
+</body>
+</html>
