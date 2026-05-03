@@ -1,0 +1,100 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .navlist li a{
+        font-size: 16px;
+    }
+    .btn1{
+        font-size: 16px;
+        margin-left: 0%;
+    }
+    .btn2{
+        font-size: 16px;
+        margin-left: 0%;
+    }
+    .section1 h1{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .sec2 h2{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section3 h2{
+        
+        font-weight: 600;
+        font-size: 24px;     
+    }
+    .section4 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section6 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section7 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section8 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section9 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section8yt{
+        margin: 10px;
+        height: auto;
+        width: auto;
+    }
+    .section10 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section11 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section12 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section13 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section14 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .section15 h2{
+        
+        font-weight: 600;
+        font-size: 24px;
+    }
+    footer h2{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (min-width:1200px) and (max-width:1399px){
+    .section3 img{
+        height: 100%;
+        width: 100%;;
+    }
+}
